@@ -76,25 +76,31 @@
 }
 
 .content {
-    width: 1000px;
+    width: 1200px;
     margin: 20px;
     display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px;
     grid-template-rows: 200px 200px 200px;
     grid-gap: 20px;
-    border-radius: 60px;
-    border-left: 40px;
+    border-radius: 50px;
+    margin-left: 100px;
+    padding - top: 10px;
+    background-color: rgb(243, 247, 248);
 }
 
 .item img {
     width: 150px;
     height: 150px;
     border-radius: 20px;
-    color: rgb(192, 24, 24);
+    color: rgb(243, 247, 248);
 }
 
 .item a {
     text-decoration: none;
+    margin-left: 10px;
+    padding-left: 50px;
+    vertical-align: middle;
+    display: grid;
 }
 
 .item1 {
@@ -142,6 +148,8 @@ h2 {
     background-color: aquamarine;
     float: left;
     border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 .left a img {
@@ -154,5 +162,4 @@ h2 {
     text-decoration: none;
     color: blue;
     font-size: 20px;
-    font-weight: bold;
 }
